@@ -5,8 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .fixed-bottom {
+            position: fixed;
+            bottom: 0;
+        }
+
+    </style>
 </head>
 <body>
-    
+
+<!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1>Alan Leverenz</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="container" style="padding-top:30px">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- About me -->
+        <div class="row" style="border:1px solid #ccc">
+            <div class="col-md-12" style="padding:15px">
+                <img src="images/alan_leverenz.jpg" style="width:180px;height:auto;float:left;margin-right:15px;" alt="Alan Leverenz" class="img-thumbnail">
+                <p>Born and raised in sunny San Diego, my life in the Big Apple started when I went to graduate school at Teachers College to study music education. Back then the neigborhood was radically different than it is today. Living on the Upper West Side was a dramatic change from taking in sunsets over the Pacific. "Staying Alive" was more than just a disco song. Over the years things have quieted down, though I miss all the great jazz at the West End Cafe and the family stores along Broadway.</p>
+                <p>Living and working in Manhattan has been a great experience. I never seem to tire of the pace and seeing things change. Same goes for my career, which has shape-shifted from teaching through various roles in advertising technologies. Along the way I raised a daughter who has taken up teaching as her (first) career. She got me started coaching soccer and practicing yoga.</p>
+                <p>One thread running through the years has been my fascination with computers and how the technology has evolved. To me, creating software is like composing music, constructing something as elegant as it is useful or meaningful. I look forward to doing it full time.</p>
+            </div>
+        </div>
+
+        <!-- About me 
+        <div class="row" style="border:1px solid #ccc";>
+            <div class="col-md-2" style="padding:0";>
+                <img src="images/alan_leverenz.jpg" alt="Alan Leverenz" class="img-thumbnail">
+            </div>
+            <div class="col-md-10">
+                <p>Born and raised in sunny San Diego, my life in the Big Apple started when I went to graduate school at Teachers College to study music education. Back then the neigborhood was radically different than it is today. Living on the Upper West Side was a dramatic change from taking in sunsets over the Pacific. "Staying Alive" was more than just a disco song. Over the years things have quieted down, though I miss all the great jazz at the West End Cafe and the family stores along Broadway.</p>
+                <p>Living and working in Manhattan has been a great experience. I never seem to tire of the pace and seeing things change. Same goes for my career, which has shape-shifted from teaching through various roles in advertising technologies. Along the way I raised a daughter who has taken up teaching as her (first) career. She got me started coaching soccer and making yoga a regular practice.</p>
+                <p>One thread running through the years has been my fascination with computers and how the technology has evolved. To me, creating software is like composing music, constructing something as elegant as it is useful or meaningful. I look forward to doing it full time.</p>
+            </div>
+        </div> -->
+            
+    </div>
+
+    <!-- footer -->
+    <div class="container" style="padding-top:30px">
+        <footer class="footer mt-auto py-3 fixed-bottom">
+            <div class="container">
+                <span class="text-muted">&copy 2019 Alan Leverenz</span>
+            </div>
+        </footer>
+    </div>
+             
 </body>
 </html>

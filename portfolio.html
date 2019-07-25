@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+}
+.minmax {
+    min-width: 200px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+
+        <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1>Alan Leverenz</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="container" style="padding-top:30px">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image gallery -->
+        <div class="row" style="padding:0 15px 20px;border:1px solid #ccc";>
+            <div class="container" style="flex-wrap:wrap">
+                <div class="card-deck">
+                    <div class="card minmax">
+                        <img src="images/education.JPG" class="card-img-top" alt="Education">
+                        <div class="card-body">
+                            <h5 class="card-title">Education</h5>
+                        </div>
+                    </div>
+                    <div class="card minmax">
+                        <img src="images/nonprofit.JPG" class="card-img-top" alt="Non-profit">
+                        <div class="card-body">
+                            <h5 class="card-title">Non-profit</h5>
+                        </div>
+                    </div>
+                    <div class="card minmax">
+                        <img src="images/orchestra.JPG" class="card-img-top" alt="Venues">
+                        <div class="card-body">
+                            <h5 class="card-title">Venues</h5>
+                        </div>
+                    </div>
+                    <div class="card minmax">
+                        <img src="images/soccer.JPG" class="card-img-top" alt="Education">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Sports</h5>
+                        </div>
+                    </div>
+                    <div class="card minmax">
+                        <img src="images/government.JPG" class="card-img-top" alt="Education">
+                        <div class="card-body">
+                            <h5 class="card-title">Government</h5>
+                        </div>
+                    </div>
+                    <div class="card minmax">
+                        <img src="images/fashion.JPG" class="card-img-top auth-image" alt="Education">
+                        <div class="card-body">
+                            <h5 class="card-title">Fashion</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container" style="padding-top:30px">
+            <footer class="footer mt-auto py-3 fixed-bottom">
+                <div class="container">
+                    <span class="text-muted">&copy 2019 Alan Leverenz</span>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
